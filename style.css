@@ -1,0 +1,42 @@
+body {
+  margin: 0;
+  padding: 0;
+  text-align: center;
+}
+header {
+    background-color: #ffce99;
+    margin: 0;
+    border-bottom: 3px darkred solid;
+}
+main {
+    font: 16px tahoma, sans-serif;
+    width: 360px;
+    margin: 0 auto;
+    text-align: justify;
+}
+footer {
+    background-color: #ffce99;
+    margin: 0;
+    text-align: center;
+    color: darkred;
+    padding: 25px; 
+    border-top: 3px darkred solid;
+}
+h1 {
+    font: 34px tahoma, sans-serif;
+    text-align: center;
+    margin: 30 auto;
+}
+h2 {
+    font: 24px tahoma, sans-serif;
+    text-align: center;
+}
+img {
+    width: 100%;
+    height: auto;
+}
+#calendarbox {
+    text-align: center;
+    border: 2px darkred solid;
+    padding: 0px 25px;
+}
