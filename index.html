@@ -14,17 +14,19 @@
 <main>
     <p>Ancient Egyptian hieroglyphs are some of the oldest written language that survives today, giving us a window into a social world unimaginably different from our own. But for thousands of years, humans had entirely forgotten how to read them. On this page you can find out:</p>
     <ul>
-    <a href="#Para1"><li>How hieroglyphs were lost to memory</li></a>
-    <li>The story of how scholars rediscovered how to read them</li>
-    <li>What the hieroglyphs tell us about the Ancient Egyptians who wrote them</li>
+        <a href="#Para1"><li>How hieroglyphs were lost to memory</li></a>
+        <a href="#Para2"><li>Cracking the code: how scholars rediscovered how to read them</li></a>
+        <a href="#Para3"><li>Decolonising Egyptology: colonial plunder and the right to heritage</li></a>
     </ul>
-    <img src="Images/hieroglyphs.jpg" alt="An Ancient Egyptian stone surface carved with hieroglyphs">
-    <h2 id=Para1>Fall of Egypt: how the hieroglyphs were lost to memory</h2></a>
-        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Nihil tempora magnam hic dolore, perspiciatis similique earum molestiae officiis quos inventore recusandae natus deserunt obcaecati placeat pariatur in dignissimos sit impedit. Lorem ipsum dolor, sit amet consectetur adipisicing elit. Fuga ipsa numquam fugit itaque cupiditate eum! Molestiae fugiat magnam dolorem non consequuntur deserunt minus ducimus labore provident omnis distinctio, exercitationem maxime.</p>
-        <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Porro rem laborum veniam dolore nihil doloribus fugit ipsam quas nostrum odit quam distinctio at earum fugiat maiores, obcaecati perspiciatis aut repellendus.</p>
-    <h2>Cracking the code</h2>
-        <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Cupiditate ex inventore quibusdam id voluptatum, a consequuntur dignissimos mollitia assumenda, atque placeat sapiente dolores odio aut eveniet modi, vero alias aspernatur?</p>
-        <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Cupiditate ex inventore quibusdam id voluptatum, a consequuntur dignissimos mollitia assumenda, atque placeat sapiente dolores odio aut eveniet modi, vero alias aspernatur?</p>
+    <figure>
+        <img src="images/hieroglyphs.jpg"
+             alt="An Ancient Egyptian stone surface carved with hieroglyphs">
+        <figcaption>A hieroglyph-carved stone from the Karnak Temple Complex near Luxor, Egypt. Photo by George Hodan (CC0 1.0) via <a href="https://www.publicdomainpictures.net/en/view-image.php?image=171058">Public Domain Pictures</a></figcaption>
+    </figure>
+        <h2 id=Para1>Fall of Egypt: how the hieroglyphs were lost to memory</h2>
+        <p>Hieroglyphs are an ornate ceremonial script developed in Egypt more than 5000 years ago. The most famous examples of hieroglyphic text are monumental inscriptions recounting the lives and deeds of pharaohs, high priests and other members of the social elite; these were carved painstakingly onto stone surfaces or painted inside of tombs and temples, where some of them remained sealed for millennia.</p>
+        <p>The disappearance of hieroglyphs was a long process. From early on, the script coexisted with a cursive writing system called hieratic, and over time the ornate, disjointed hieroglyphs became confined to ceremonial and religious contexts. Then came 800 years of upheaval when foreign ruling dynasties came and went and repeatedly transformed Egyptian cultural life: the Persians (from 525 BC), the Greeks (332 BC), and finally the Romans (30BC). In the fourth century AD the Roman Empire converted to Christianity and began suppressing other religions; the last known hieroglyphic creation dates from this time.</p>
+        <p>After this, the cultural knowledge of the meaning of hieroglyphs vanished. Egyptian spoken and written language had been through several evolutions that had broken its links with the ancient script. Nonetheless, Arab scholars in the Medieval period were fascinated by what they termed ‘the writing of the birds’ (due to the recurring bird characters in hieroglyphic text), and worked hard to decipher its secrets. However, neither they nor the European enthusiasts who took up the attempt from the Renaissance period onwards were able to make a breakthrough.</p>
         <div id="calendarbox">
             <h2>Calendar challenge</h2>
             <p id="currentdate"></p>
@@ -32,14 +34,26 @@
         </div>
         <script>
             let date = new Date();
-            document.getElementById("currentdate").innerHTML = "<p>Today is "  + date.toLocaleString("en-GB") + "."
+            document.getElementById("currentdate").innerHTML = "<p>Today is "  + date.toLocaleString("en-GB", {year: 'numeric', month: 'numeric',day: 'numeric'}) + "."
         </script>
-        <h2>A new world of history</h2>
-        <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Cupiditate ex inventore quibusdam id voluptatum, a consequuntur dignissimos mollitia assumenda, atque placeat sapiente dolores odio aut eveniet modi, vero alias aspernatur?</p>
-        <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Cupiditate ex inventore quibusdam id voluptatum, a consequuntur dignissimos mollitia assumenda, atque placeat sapiente dolores odio aut eveniet modi, vero alias aspernatur?</p>
-    </main>
+    <h2 id=Para2>Cracking the code: how scholars rediscovered how to read them</h2>
+        <p>The effort to decipher hieroglyphs was suddenly revolutionised in 1799, when a French engineer, serving in the French army that was then occupying Egypt under Napoleon Bonaparate, happened upon an extraordinary slab of stone embedded in the masonry of an Ottoman fortification. This was the Rosetta Stone – so called because ‘Rosetta’ or ‘Rosette’ was a French name for nearby Rashid, a port town of the Nile Delta.</p>
+        <p>Close examination showed that the Stone’s surface was divided into three sections, each covered in small lines of writing in a different script (hieroglyphic, Demotic, and Ancient Greek). Much to the excitement of European scholars, this raised the prospect of deciphering hieroglyphs by way of comparing the hieroglyphic version of the message with the Greek. When British troops defeated the French expedition in 1801, they took possession of the Stone and transported it to London.</p>
+        <p>The imperial competition between France and Britain had an echo in the competition of two scholars – the French Jean-François Champollion and the British Thomas Young – who raced to be the first to use the Stone’s inscriptions to successfully decipher hieroglyphs. In 1822, Champollion made the key breakthrough by correctly surmising that hieroglyphs were a sophisticated mixture of phonetic, alphabetical characters (letters representing sounds) and ideographic, symbolic ones (characters representing ideas).</p>
+    <h2 id=Para3>Decolonising Egyptology: colonial plunder and the right to heritage</h2>
+        <p>It's striking that both the disappearance and the rediscovery of hieroglyphic meanings were closely connected with the conquest and subjugation of Egypt by foreign powers. The increasing domination of Egypt by European powers in the 19th and 20th centuries and the fascination of European scholars with Egyptology after 1822 meant that a huge number of Ancient Egyptian artefacts were ultimately transferred to Europe and became permanent exhibits in European collections: for example, the British Museum holds over 100,000 Ancient Egyptian or Sudanese objects, the Ashmolean Museum in Oxford holds 40,000, and hundreds of thousands more are located at museums in France, Germany and the United States.</p>
+        <p>The Rosetta Stone has become the focal point for demands from Egyptian historians and from decolonial activists more broadly that stolen artefacts be repatriated to Egypt. In October 2022 a petition was launched by a number of prominent Egyptian archaeologists calling on the British Museum and the British and Egyptian governments to organise the Stone’s return. As well as the colonial violence involved in the Stone’s original acquisition, the petition makes arguments touching on travel inequality, poverty and the right to access one’s own cultural heritage. The signatories write:</p>
+        <div id=quote>
+            <em>
+                <p>"History can’t be changed, but it can be corrected. And despite the withdrawal of political, military, and governmental rule of the British Empire from Egypt over a century ago, decolonisation is far from over.</p>
+                <p>[...]</p>
+                <p>We urge everyone who believes in the right of cultural identity, the right of equality among nations, and the inalienable right of each sovereign state to enjoy their own heritage and reclaim that heritage if it has been taken from them, to sign this petition in support of the return of the Rosetta Stone to its country of origin: Egypt."</p>
+            </em>
+                <p><strong><a href="https://www.repatriaterashid.org/">Read more and sign the petition</a></strong></p>
+        </div>
+        </main>
 <footer>
-    <p>This webpage was inspired by the British Museum exhibition "Hieroglyphs: unlocking ancient Egypt", which ran from October 2022 to February 2023.</p>
+    <p id=footertext>This webpage was inspired by the British Museum exhibition "Hieroglyphs: unlocking ancient Egypt", which ran from October 2022 to February 2023.</p>
 </footer>
 </body>
 </html>

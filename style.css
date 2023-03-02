@@ -1,7 +1,6 @@
 body {
   margin: 0;
   padding: 0;
-  text-align: center;
 }
 header {
     background-color: #ffce99;
@@ -17,26 +16,51 @@ main {
 footer {
     background-color: #ffce99;
     margin: 0;
-    text-align: center;
     color: darkred;
     padding: 25px; 
     border-top: 3px darkred solid;
 }
 h1 {
     font: 34px tahoma, sans-serif;
+    width: 360px;
     text-align: center;
-    margin: 30 auto;
+    margin: 0 auto;
 }
 h2 {
     font: 24px tahoma, sans-serif;
     text-align: center;
 }
+figure {
+    width: 100%;
+    height: auto;
+    margin: 0 auto;
+}
 img {
     width: 100%;
     height: auto;
+}
+figcaption {
+    font: 11px tahoma;
+    width: 100%;
+}
+li {
+    text-align: left;
+    padding: 5px 0;
 }
 #calendarbox {
     text-align: center;
     border: 2px darkred solid;
     padding: 0px 25px;
+}
+#quote {
+    text-align: center;
+    font: 18px tahoma;
+    color: darkred;
+    width: 360px;
+    margin: 45px 0;
+}
+#footertext {
+    text-align: center;
+    width: 360px;
+    margin: 0 auto;
 }
