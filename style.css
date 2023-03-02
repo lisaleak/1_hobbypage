@@ -1,28 +1,27 @@
 body {
-  margin: 0;
-  padding: 0;
+    font: 16px tahoma, sans-serif;
+    margin: 0;
 }
 header {
     background-color: #ffce99;
     margin: 0;
+    width: 100vw;
     border-bottom: 3px darkred solid;
 }
 main {
-    font: 16px tahoma, sans-serif;
-    width: 360px;
+    width: 340px;
     margin: 0 auto;
     text-align: justify;
 }
 footer {
     background-color: #ffce99;
-    margin: 0;
+    width: 100vw;
     color: darkred;
-    padding: 25px; 
     border-top: 3px darkred solid;
 }
 h1 {
     font: 34px tahoma, sans-serif;
-    width: 360px;
+    width: 340px;
     text-align: center;
     margin: 0 auto;
 }
@@ -56,11 +55,12 @@ li {
     text-align: center;
     font: 18px tahoma;
     color: darkred;
-    width: 360px;
     margin: 45px 0;
 }
 #footertext {
     text-align: center;
-    width: 360px;
+    width: 340px;
+    padding-top: 10px;
+    padding-bottom: 15px;
     margin: 0 auto;
 }
