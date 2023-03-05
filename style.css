@@ -1,5 +1,5 @@
 body {
-    font: 16px tahoma, sans-serif;
+    font: 20px tahoma, sans-serif;
     margin: 0;
 }
 header {
@@ -9,9 +9,18 @@ header {
     border-bottom: 3px darkred solid;
 }
 main {
-    width: 340px;
     margin: 0 auto;
     text-align: justify;
+}
+@media screen and (max-width: 600px) {
+    main {
+        width: 90vw;
+    }
+}
+@media screen and (min-width: 600px) {
+    main {
+        width: 540px;
+    }
 }
 footer {
     background-color: #ffce99;
@@ -20,10 +29,19 @@ footer {
     border-top: 3px darkred solid;
 }
 h1 {
-    font: 34px tahoma, sans-serif;
-    width: 340px;
+    font: 40px tahoma, sans-serif;
     text-align: center;
     margin: 0 auto;
+}
+@media screen and (max-width: 600px) {
+    h1 {
+        width: 90vw;
+    }
+}
+@media screen and (min-width: 600px) {
+    h1 {
+        width: 540px;
+    }
 }
 h2 {
     font: 24px tahoma, sans-serif;
@@ -37,10 +55,12 @@ figure {
 img {
     width: 100%;
     height: auto;
+    margin: 0 auto 5px;
+    outline: solid darkred 1px;
 }
 figcaption {
-    font: 11px tahoma;
-    width: 100%;
+    font: 16px tahoma;
+    margin: 0 auto;
 }
 li {
     text-align: left;
@@ -53,14 +73,23 @@ li {
 }
 #quote {
     text-align: center;
-    font: 18px tahoma;
+    font: 22px tahoma;
     color: darkred;
     margin: 45px 0;
 }
 #footertext {
     text-align: center;
-    width: 340px;
-    padding-top: 10px;
-    padding-bottom: 15px;
+    padding-top: 18px;
+    padding-bottom: 20px;
     margin: 0 auto;
+}
+@media screen and (max-width: 600px) {
+    #footertext {
+        width: 90vw;
+    }
+}
+@media screen and (min-width: 600px) {
+    #footertext {
+        width: 500px;
+    }
 }
