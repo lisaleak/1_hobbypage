@@ -80,6 +80,7 @@ li {
 #footertext {
     text-align: center;
     padding-top: 18px;
+    font: 16px tahoma;
     padding-bottom: 20px;
     margin: 0 auto;
 }
